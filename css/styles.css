@@ -401,6 +401,7 @@ p {
     (100% - (30px * (var(--collum-number) - 1))) / var(--collum-number)
   );
 }
+
 .examples-list-item:not(:nth-child(3n + 3)) {
   margin-right: var(--double-gatter-size);
 }
@@ -408,6 +409,14 @@ p {
 .examples-list-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: var(--double-gatter-size);
 }
+
+.examples-list-link:hover,
+.examples-list-link:focus {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .examples-list-image {
   width: 100%;
 }
