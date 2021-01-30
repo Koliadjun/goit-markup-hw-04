@@ -138,8 +138,11 @@ p {
 /* == Hero section styles == */
 
 .hero {
+  background-image: url(../images/index/hero-background-image.jpg);
   background-color: var(--dark-background-color);
   color: var(--dark-background-text-color);
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 .hero.section {
