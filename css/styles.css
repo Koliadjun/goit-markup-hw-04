@@ -259,7 +259,9 @@ p {
 }
 .social-list {
   display: flex;
-  justify-content: space-between;
+}
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 .social-list-link {
   width: 44px;
@@ -338,6 +340,25 @@ p {
 .footer-list-link:focus,
 .footer-list-link:hover {
   color: var(--active-link-color);
+}
+.footer .conteiner {
+  align-items: baseline;
+}
+.address-conteiner {
+  margin-right: 70px;
+}
+.dark-theme {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.social-link-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
 /* ===== Portfolio.html styles ===== */
