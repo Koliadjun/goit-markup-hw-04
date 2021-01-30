@@ -300,7 +300,7 @@ p {
   height: 100%;
   color: #afb1b8;
   border: #afb1b8 solid 1px;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .partners-list-link:hover,
 .partners-list-link:focus {
