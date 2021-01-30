@@ -151,6 +151,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  background-size: 1600px;
 }
 .hero.section {
   padding: 200px 0;
