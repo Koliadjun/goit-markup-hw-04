@@ -118,6 +118,7 @@ p {
 }
 .address-link {
   padding: 32px 0;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -350,6 +351,7 @@ p {
 }
 .footer-list-link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
 }
 .footer-list-link:focus,
 .footer-list-link:hover {
